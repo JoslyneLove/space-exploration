@@ -1,0 +1,54 @@
+<!---
+This will be the welcome captain landing page
+--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome Captain!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./Helpers/welcome_captain.css" />
+</head>
+<body>
+
+<header>
+    <h1 id="welcome">Welcome, Captain!</h1>
+</header>
+
+<input type="button" id="choose" value="Pick your Ship" onclick="editShip()">
+
+<input type="button" id="start" value="Start Game" onclick="startGame()">
+
+<script>
+	// Set defaults for variables needed for game
+	localStorage.setItem("score",0);
+    localStorage.setItem("shipSel","rocket");
+	localStorage.setItem("loc","ear");
+    localStorage.setItem("merVisited","false");
+    localStorage.setItem("venVisited","false");
+    localStorage.setItem("earVisited","false");
+    localStorage.setItem("marVisited","false");
+    localStorage.setItem("jupVisited","false");
+    localStorage.setItem("satVisited","false");
+    localStorage.setItem("uraVisited","false");
+    localStorage.setItem("nepVisited","false");
+	for (i = 1; i < 5; i++) {
+	  localStorage.setItem("merI" + i, "false");
+	  localStorage.setItem("venI" + i, "false");
+	  localStorage.setItem("earI" + i, "false");
+	  localStorage.setItem("marI" + i, "false");
+	  localStorage.setItem("jupI" + i, "false");
+	  localStorage.setItem("satI" + i, "false");
+	  localStorage.setItem("uraI" + i, "false");
+	  localStorage.setItem("nepI" + i, "false");
+	}
+	// Links for buttons to other pages
+    function startGame() {
+        window.open("./Helpers/planets.html","_self");
+    }
+    function editShip() {
+        window.open("./Helpers/ship.html","_self");
+    }
+</script>
+</body>
+</html>
