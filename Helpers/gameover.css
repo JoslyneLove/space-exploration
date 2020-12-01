@@ -1,0 +1,26 @@
+
+body {
+    background-image: url("../images/space.jpg");
+}
+
+header {
+    font-size: 60px;
+    color: yellow;
+    text-align: center;
+}
+
+p {
+	font-size: 40px;
+	color: yellow;
+	text-align: center
+}
+
+#choose {
+    margin-left: 35%;
+    margin-top: 10%;
+    border: solid yellow;
+    background-color: #848383;
+    font-weight: bold;
+    font-size: 30px;
+}
+

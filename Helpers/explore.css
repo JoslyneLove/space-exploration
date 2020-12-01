@@ -1,0 +1,49 @@
+body {
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+}
+
+h1 {
+    color: yellow;
+	margin: 0;
+	padding-bottom: 0;
+	float: left;
+	font-size: 30px;
+}
+
+p { 
+    color: yellow;
+	margin: 0;
+	padding-bottom: 0;
+	padding-right: 10px;
+	float: right;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+img:hover{ 
+	opacity:1.0;
+	filter:alpha(opacity=40);
+	-webkit-opacity:1.0;
+	-moz-opacity:1.0;
+}
+
+img{
+	opacity:0.4;
+	filter:alpha(opactiy=40);
+	-webkit-opacity:0.4;
+	-moz-opacity:0.4;
+}
+
+#back {
+    position:absolute;
+    margin-left: 0%;
+    margin-top: 1%;
+    border: solid yellow;
+    background-color: #848383;
+    font-weight: bold;
+    font-size: 30px;
+}

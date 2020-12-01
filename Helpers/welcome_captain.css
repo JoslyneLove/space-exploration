@@ -1,0 +1,33 @@
+/*
+This will stylize the welcome captain landing page
+*/
+
+body {
+    background-image: url("../images/space.jpg");
+}
+
+header {
+    font-size: 75px;
+    color: yellow;
+    text-align: center;
+}
+
+#choose {
+    position:absolute;
+    margin-left: 29%;
+    margin-top: 10%;
+    border: solid yellow;
+    background-color: #848383;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#start {
+    position:absolute;
+    margin-left: 60%;
+    margin-top: 10%;
+    border: solid yellow;
+    background-color: #848383;
+    font-weight: bold;
+    font-size: 30px;
+}

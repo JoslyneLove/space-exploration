@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang=en-US>
+  <head>
+    <title>Welcome Captian</title>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="Planets, Exploration">
+	<meta name="description" content="Game for children to learn about the solar system">
+	<meta name="author" content="Joslyne Lovelace">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="planets.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <!-- Load picture in canvas on load -->
+  <body onload="drawPlanets()">
+    <h1>Don't let the asteroid hit your spaceship!</h1> 
+	<!-- Score will display the score of the game so far -->
+	<p id="score">score</p>
+    <canvas id="space" width="1500" height="650"></canvas>
+	<script src="./planets.js"></script>
+  </body>
+</html>

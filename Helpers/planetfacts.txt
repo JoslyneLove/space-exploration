@@ -1,0 +1,55 @@
+Planet Facts
+-------------
+
+Mercury:
+	Average Temperature, 800 deg F during the day, -290 deg F at night
+	Diameter, 2158.64 miles
+	Year length (Earth Days to travel around the sun), 88 earth days
+	Interesting Fact, Mercury is the closest planet to the Sun
+		
+Venus:
+	Average Temperature, 880 deg F
+	Diameter, 7521 miles
+	Year length (Earth Days to travel around the sun), 225 earth days
+	Interesting Fact, Venus is the third brightest object in the Earth's sky after the Sun and Moon
+		
+Earth:
+	Average Temperature, 61 deg F
+	Diameter, 7926 miles
+	Year length (Earth Days to travel around the sun), 365 earth days
+	Interesting Fact, Earth is the densest planet in the solar system at 5,513 kg/m3	
+		
+Mars:
+	Average Temperature, -20 deg F
+	Diameter, 4212.275 miles
+	Year length (Earth Days to travel around the sun), 687 earth 
+	Interesting Fact, Mars has the tallest mountain known in the solar system at 68,897 ft high
+		
+Jupiter:
+	Average Temperature, -162 deg F
+	Diameter, 88,846 miles
+	Year length (Earth Days to travel around the sun), 4,333 earth days
+	Interesting Fact, Jupiter has the shortest day of the planets in the solar system, rotating once every 9 hours and 55 minutes
+		
+Saturn:
+	Average Temperature, -218 deg F
+	Diameter, 74,897.6 miles
+	Year length (Earth Days to travel around the sun), 10,759 earth days
+	Interesting Fact, Saturn has the fastest winds of any other planet in the solar system at 1,100 miles per hour
+		
+Uranus:
+	Average Temperature, -320 deg F
+	Diameteer, 31,518.43 miles
+	Year length (Earth Days to travel around the sun), 30,687 earth days
+	Interesting Fact, Uranus has 13 known rings, though these rings are quite narrow so they are less visible than Saturn's ring
+		
+Neptune:
+	Average Temperature, -331 deg F
+	Diameter, 30,598.8 miles
+	Year length (Earth Days to travel around the sun), 60,190 earth days
+	Interesting Fact, Only one spacecraft has flown past Neptune, Voyager 2 in 1989
+
+Temperature source: https://solarsystem.nasa.gov/resources/681/solar-system-temperatures/
+Diameter source: https://www.universetoday.com/33962/diameters-of-the-planets/	
+Year length source: https://spaceplace.nasa.gov/years-on-other-planets/en/
+Interesting Fact source: https://theplanets.org/planets/

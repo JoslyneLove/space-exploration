@@ -1,0 +1,34 @@
+body {
+	background-color: black;
+	background-image: url("../images/space.jpg");
+	cursor: none;
+}
+
+#space {
+	background-color: black;
+	background-image: url("../images/space.jpg");
+	border: 5px solid black;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	width: 100%;
+}
+
+h1 {
+    color: yellow;
+	margin: 0;
+	padding-bottom: 0;
+	float: left;
+	font-size: 30px;
+}
+
+p { 
+    color: yellow;
+	margin: 0;
+	padding-bottom: 0;
+	padding-right: 10px;
+	float: right;
+	font-size: 30px;
+	font-weight: bold;
+}

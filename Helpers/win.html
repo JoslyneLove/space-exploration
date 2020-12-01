@@ -1,0 +1,28 @@
+<!---
+This will be the winning landing page
+--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome Captain!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="win.css" />
+
+</head>
+
+<body>
+
+    <header>
+        <h1 id="welcome">Congratulations!</h1>
+        <p id="final">You collected all the data!</p>
+    </header>
+
+    <input type="button" id="learn" value="Learn more about space exploration" onclick="more()">
+
+    <script>
+        function more() {
+            window.open("https://www.nasa.gov/", "_new");
+        }
+    </script>
+</body></html>

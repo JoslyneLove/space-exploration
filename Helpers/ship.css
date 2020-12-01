@@ -1,0 +1,70 @@
+.gridcontainer {
+	display: grid;
+	grid-template-areas:
+		'i1 i2 i3'
+		'i4 i5 i6';
+	grid-gap: 80px;
+	border-bottom-color: red;
+}
+
+.grid-item {
+	border: 1px solid red;
+}
+
+img {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+	  
+#submit {
+	display: block;
+    position:absolute;
+    margin-left: 50%;
+    border: solid yellow;
+    background-color: #848383;
+    font-weight: bold;
+    font-size: 30px;
+	padding: 0;
+}
+
+header {
+	font-size: 40px;
+}
+
+footer {
+	padding: 0;
+	margin: 0;
+}
+
+#item1 {
+	display: block;
+	grid-area: i1;
+}
+
+#item2 {
+	display: block;
+	grid-area: i2;
+}
+
+#item3 {
+	display: block;
+	grid-area: i3;
+}
+
+#item4 {
+	display: block;
+	grid-area: i4;
+}
+
+#item5 {
+	display: block;
+	grid-area: i5;
+}
+
+#item6 {
+	display: block;
+	grid-area: i6;
+}
